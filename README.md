@@ -1,0 +1,1 @@
+Esto es una versión desactualizada y en mal funcionamiento, al que tienes descargada es una versión actualizada y privada.
