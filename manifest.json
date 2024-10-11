@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Extensión de Recompensas",
+  "version": "1.0",
+  "permissions": ["identity", "storage"],
+  "background": {
+      "service_worker": "background.js"
+  },
+  "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+          "16": "icons/icon16.png",
+          "48": "icons/icon48.png",
+          "128": "icons/icon128.png"
+      }
+  },
+  "oauth2": {
+      "client_id": "423297893446-ccl8lbd5k6iuuo397svh1pqvb3f1ff35.apps.googleusercontent.com",
+      "scopes": ["profile", "email"]
+  }
+}
